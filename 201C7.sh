@@ -24,3 +24,17 @@ lshw -c display | grep -i configuration
 
 echo "Network Adapter"
 lshw -c network | grep -i description
+lshw -C network | grep -i product
+lshw -C network | grep -i vendor
+lshw -C network | grep -i physical id
+lshw -C network | grep -i bus info
+lshw -C network | grep -i logical name
+lshw -C network | grep -i version
+lshw -C network | grep -i serial
+lshw -C network | grep -i size
+lshw -C network | grep -i capacity
+lshw -C network | grep -i width
+lshw -C network | grep -i clock
+lshw -C network | grep -i capabilities
+lshw -C network | grep -i configuration
+lshw -C network | grep -i resources
