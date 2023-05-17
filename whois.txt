@@ -1,0 +1,11 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	amazon.com
+Address: 205.251.242.103
+Name:	amazon.com
+Address: 52.94.236.248
+Name:	amazon.com
+Address: 54.239.28.85
+
