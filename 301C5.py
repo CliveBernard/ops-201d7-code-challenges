@@ -1,8 +1,8 @@
 
+age = int(input("What is your current age? "))
 
-num = int(input("Enter a number: "))
+x = (90 - age) * 365
+y = (90 - age) * 52
+z = (90 - age) * 12
 
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+print(f"You have {x} days, {y} weeks, and {z} months left.")
